@@ -1,2 +1,2 @@
 # wagerhubBot
-- Testing out Selenium form handling capabilities with sports gambling
+-  Using Python along with Selenium to create a sports gambling bot. Beep boop.
