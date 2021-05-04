@@ -1,0 +1,401 @@
+1620163962817	geckodriver	INFO	Listening on 127.0.0.1:59853
+1620163965905	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Jack\\AppData\\Local\\Temp\\rust_mozprofileb7XwGg"
+*** You are running in headless mode.
+1620163966173	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620163967007	Marionette	INFO	Listening on port 59861
+1620163967455	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1:59948
+1620164015674	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Jack\\AppData\\Local\\Temp\\rust_mozprofilezG3qEn"
+*** You are running in headless mode.
+1620164015934	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620164016699	Marionette	INFO	Listening on port 59956
+1620164017205	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1:60066
+1620164089926	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Jack\\AppData\\Local\\Temp\\rust_mozprofile8bJZc5"
+*** You are running in headless mode.
+1620164090176	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620164091002	Marionette	INFO	Listening on port 60075
+1620164091465	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/wager/Message.aspx, line 233: TypeError: window.navigate is not a function
+1620164093880	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1620164094571	Marionette	INFO	Stopped listening on port 60075
+JavaScript error: https://www.wagerhub888.com/wager/Welcome.aspx, line 288: TypeError: liveWindow is undefined
+1620164095085	geckodriver	INFO	Listening on 127.0.0.1:60134
+1620164098150	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Jack\\AppData\\Local\\Temp\\rust_mozprofile4B7G3X"
+*** You are running in headless mode.
+1620164098398	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620164099192	Marionette	INFO	Listening on port 60142
+1620164099705	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/wager/Message.aspx, line 233: TypeError: window.navigate is not a function
+1620164102080	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1620164102499	Marionette	INFO	Stopped listening on port 60142
+JavaScript error: https://www.wagerhub888.com/wager/Welcome.aspx, line 288: TypeError: liveWindow is undefined
+1620164130339	geckodriver	INFO	Listening on 127.0.0.1:60233
+1620164133421	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Jack\\AppData\\Local\\Temp\\rust_mozprofileIb0x6V"
+1620164133672	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620164135208	Marionette	INFO	Listening on port 60241
+1620164135458	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/wager/Message.aspx, line 233: TypeError: window.navigate is not a function
+1620164138241	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1620164138956	Marionette	INFO	Stopped listening on port 60241
+JavaScript error: https://www.wagerhub888.com/wager/Welcome.aspx, line 288: TypeError: liveWindow is undefined
+1620164431696	geckodriver	INFO	Listening on 127.0.0.1:60533
+1620164434792	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Jack\\AppData\\Local\\Temp\\rust_mozprofileTB94kz"
+1620164435046	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620164436519	Marionette	INFO	Listening on port 60541
+1620164436850	Marionette	WARN	TLS certificate errors will be ignored for this session
+1620164443227	Marionette	INFO	Stopped listening on port 60541
+1620164549589	geckodriver	INFO	Listening on 127.0.0.1:60681
+1620164552694	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Jack\\AppData\\Local\\Temp\\rust_mozprofileKS39D3"
+1620164552945	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620164554468	Marionette	INFO	Listening on port 60689
+1620164554766	Marionette	WARN	TLS certificate errors will be ignored for this session
+1620164563952	Marionette	INFO	Stopped listening on port 60689
+1620164723282	geckodriver	INFO	Listening on 127.0.0.1:60866
+1620164726379	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Jack\\AppData\\Local\\Temp\\rust_mozprofile14EiSy"
+1620164726634	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620164728238	Marionette	INFO	Listening on port 60874
+1620164728422	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/wager/Message.aspx, line 233: TypeError: window.navigate is not a function
+1620164730732	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://www.wagerhub888.com/wager/Welcome.aspx, line 288: TypeError: liveWindow is undefined
+JavaScript error: https://www.wagerhub888.com/wager/CreateSports.aspx?WT=0, line 672: TypeError: liveWindow is undefined
+1620164737436	Marionette	INFO	Stopped listening on port 60874
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1620164811365	geckodriver	INFO	Listening on 127.0.0.1:61018
+1620164814451	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Jack\\AppData\\Local\\Temp\\rust_mozprofileyVNuxk"
+1620164814699	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620164816209	Marionette	INFO	Listening on port 61026
+1620164816511	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/wager/Message.aspx, line 233: TypeError: window.navigate is not a function
+1620164819416	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://www.wagerhub888.com/wager/Welcome.aspx, line 288: TypeError: liveWindow is undefined
+JavaScript error: https://www.wagerhub888.com/wager/CreateSports.aspx?WT=0, line 674: TypeError: liveWindow is undefined
+1620164825431	Marionette	INFO	Stopped listening on port 61026
+1620164888524	geckodriver	INFO	Listening on 127.0.0.1:61146
+1620164891600	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Jack\\AppData\\Local\\Temp\\rust_mozprofileINH1z0"
+1620164891851	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620164893483	Marionette	INFO	Listening on port 61154
+1620164893661	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/wager/Message.aspx, line 233: TypeError: window.navigate is not a function
+1620164896553	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://www.wagerhub888.com/wager/Welcome.aspx, line 288: TypeError: liveWindow is undefined
+JavaScript error: https://www.wagerhub888.com/wager/CreateSports.aspx?WT=0, line 672: TypeError: liveWindow is undefined
+1620164904120	Marionette	INFO	Stopped listening on port 61154
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1620164938303	geckodriver	INFO	Listening on 127.0.0.1:61271
+1620164941381	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Jack\\AppData\\Local\\Temp\\rust_mozprofilenjgJOj"
+1620164941631	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620164943135	Marionette	INFO	Listening on port 61280
+1620164943424	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/wager/Message.aspx, line 233: TypeError: window.navigate is not a function
+1620164946258	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://www.wagerhub888.com/wager/Welcome.aspx, line 288: TypeError: liveWindow is undefined
+JavaScript error: https://www.wagerhub888.com/wager/CreateSports.aspx?WT=0, line 674: TypeError: liveWindow is undefined
+1620164953845	Marionette	INFO	Stopped listening on port 61280
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1620165041190	geckodriver	INFO	Listening on 127.0.0.1:61405
+1620165044271	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Jack\\AppData\\Local\\Temp\\rust_mozprofilewuYThA"
+1620165044523	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620165046098	Marionette	INFO	Listening on port 61413
+1620165046310	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/wager/Message.aspx, line 233: TypeError: window.navigate is not a function
+1620165049400	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://www.wagerhub888.com/wager/Welcome.aspx, line 288: TypeError: liveWindow is undefined
+1620165050794	Marionette	INFO	Stopped listening on port 61413
+JavaScript error: https://www.wagerhub888.com/wager/CreateSports.aspx?WT=0, line 672: TypeError: liveWindow is undefined
+1620165204012	geckodriver	INFO	Listening on 127.0.0.1:61556
+1620165207107	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Jack\\AppData\\Local\\Temp\\rust_mozprofileBtMOY5"
+1620165207358	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620165208933	Marionette	INFO	Listening on port 61564
+1620165209150	Marionette	WARN	TLS certificate errors will be ignored for this session
+1620165216304	Marionette	INFO	Stopped listening on port 61564
+1620166092494	geckodriver	INFO	Listening on 127.0.0.1:62046
+1620166095592	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Jack\\AppData\\Local\\Temp\\rust_mozprofileKYm769"
+1620166095844	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620166097477	Marionette	INFO	Listening on port 62054
+1620166097636	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/wager/Message.aspx, line 233: TypeError: window.navigate is not a function
+1620166100008	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://www.wagerhub888.com/wager/Welcome.aspx, line 288: TypeError: liveWindow is undefined
+1620166101648	Marionette	INFO	Stopped listening on port 62054
+1620167570128	geckodriver	INFO	Listening on 127.0.0.1:51474
+1620167573219	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Jack\\AppData\\Local\\Temp\\rust_mozprofilepdsTZJ"
+*** You are running in headless mode.
+1620167573466	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620167574308	Marionette	INFO	Listening on port 51482
+1620167574761	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1:51553
+1620167690160	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Jack\\AppData\\Local\\Temp\\rust_mozprofileAU8yme"
+*** You are running in headless mode.
+1620167690411	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620167691284	Marionette	INFO	Listening on port 51561
+1620167691700	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1:51660
+1620167965880	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Jack\\AppData\\Local\\Temp\\rust_mozprofileqqBCbS"
+*** You are running in headless mode.
+1620167966130	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620167966935	Marionette	INFO	Listening on port 51670
+1620167967413	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1:51730
+1620167981018	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Jack\\AppData\\Local\\Temp\\rust_mozprofileyKjjWX"
+*** You are running in headless mode.
+1620167981266	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620167982048	Marionette	INFO	Listening on port 51738
+1620167982560	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1:51917
+1620168499765	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Jack\\AppData\\Local\\Temp\\rust_mozprofileGy21mS"
+1620168500018	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620168501546	Marionette	INFO	Listening on port 51926
+1620168501825	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/wager/Message.aspx, line 233: TypeError: window.navigate is not a function
+1620168504062	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://www.wagerhub888.com/wager/Welcome.aspx, line 288: TypeError: liveWindow is undefined
+JavaScript error: https://www.wagerhub888.com/wager/CreateSports.aspx?WT=0, line 682: TypeError: liveWindow is undefined
+1620168514476	Marionette	INFO	Stopped listening on port 51926
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1620168529967	geckodriver	INFO	Listening on 127.0.0.1:51991
+1620168533041	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Jack\\AppData\\Local\\Temp\\rust_mozprofileHdvAU3"
+1620168533312	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620168534824	Marionette	INFO	Listening on port 51999
+1620168535084	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/wager/Message.aspx, line 233: TypeError: window.navigate is not a function
+1620168537569	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://www.wagerhub888.com/wager/Welcome.aspx, line 288: TypeError: liveWindow is undefined
+JavaScript error: https://www.wagerhub888.com/wager/CreateSports.aspx?WT=0, line 682: TypeError: liveWindow is undefined
+JavaScript error: https://www.wagerhub888.com/wager/CreateSports.aspx?WT=0, line 682: TypeError: liveWindow is undefined
+JavaScript error: https://www.wagerhub888.com/wager/CreateSports.aspx?WT=1, line 664: TypeError: liveWindow is undefined
+JavaScript error: https://www.wagerhub888.com/wager/CreateSports.aspx?WT=0, line 682: TypeError: liveWindow is undefined
+JavaScript error: https://www.wagerhub888.com/wager/CreateSports.aspx?WT=1, line 664: TypeError: liveWindow is undefined
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: https://www.wagerhub888.com/wager/CreateSports.aspx?WT=0, line 682: TypeError: liveWindow is undefined
+1620169342194	Marionette	INFO	Stopped listening on port 51999
+pData\\Local\\Temp\\rust_mozprofileIahsIc"
+1620168571184	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620168573000	Marionette	INFO	Listening on port 52074
+1620168573094	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/wager/Message.aspx, line 233: TypeError: window.navigate is not a function
+1620168574823	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://www.wagerhub888.com/wager/Welcome.aspx, line 288: TypeError: liveWindow is undefined
+JavaScript error: https://www.wagerhub888.com/wager/CreateSports.aspx?WT=1, line 664: TypeError: liveWindow is undefined
+JavaScript error: https://www.wagerhub888.com/wager/CreateSports.aspx?WT=0, line 682: TypeError: liveWindow is undefined
+1620168865632	Marionette	INFO	Stopped listening on port 52074
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+8664809	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620168666355	Marionette	INFO	Listening on port 52155
+1620168666594	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/wager/Message.aspx, line 233: TypeError: window.navigate is not a function
+1620168669148	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://www.wagerhub888.com/wager/Welcome.aspx, line 288: TypeError: liveWindow is undefined
+JavaScript error: https://www.wagerhub888.com/wager/CreateSports.aspx?WT=1, line 664: TypeError: liveWindow is undefined
+1620168784973	Marionette	INFO	Stopped listening on port 52155
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+8768670	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620168770147	Marionette	INFO	Listening on port 52258
+1620168770460	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/wager/Message.aspx, line 233: TypeError: window.navigate is not a function
+1620168772806	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://www.wagerhub888.com/wager/Welcome.aspx, line 288: TypeError: liveWindow is undefined
+JavaScript error: https://www.wagerhub888.com/wager/CreateSports.aspx?WT=1, line 664: TypeError: liveWindow is undefined
+1620168870338	Marionette	INFO	Stopped listening on port 52258
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1620169091388	geckodriver	INFO	Listening on 127.0.0.1:52446
+1620169094466	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Jack\\AppData\\Local\\Temp\\rust_mozprofile9x63wR"
+1620169094731	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620169096209	Marionette	INFO	Listening on port 52454
+1620169096513	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/wager/Message.aspx, line 233: TypeError: window.navigate is not a function
+1620169098978	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://www.wagerhub888.com/wager/Welcome.aspx, line 288: TypeError: liveWindow is undefined
+JavaScript error: https://www.wagerhub888.com/wager/CreateSports.aspx?WT=1, line 664: TypeError: liveWindow is undefined
+1620169350691	Marionette	INFO	Stopped listening on port 52454
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+9174737	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620169176265	Marionette	INFO	Listening on port 52527
+1620169176544	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/wager/Message.aspx, line 233: TypeError: window.navigate is not a function
+1620169178900	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://www.wagerhub888.com/wager/Welcome.aspx, line 288: TypeError: liveWindow is undefined
+JavaScript error: https://www.wagerhub888.com/wager/CreateSports.aspx?WT=1, line 666: TypeError: liveWindow is undefined
+1620169346210	Marionette	INFO	Stopped listening on port 52527
+ground" "-no-remote" "-profile" "C:\\Users\\Jack\\AppData\\Local\\Temp\\rust_mozprofile1wVbpX"
+1620169288292	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620169289736	Marionette	INFO	Listening on port 52604
+1620169290132	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/wager/Message.aspx, line 233: TypeError: window.navigate is not a function
+1620169292386	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://www.wagerhub888.com/wager/Welcome.aspx, line 288: TypeError: liveWindow is undefined
+JavaScript error: https://www.wagerhub888.com/wager/CreateSports.aspx?WT=1, line 654: TypeError: liveWindow is undefined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/tinysort/3.2.5/tinysort.min.js, line 1: TypeError: M is undefined
+JavaScript error: https://www.wagerhub888.com/wager/CreateSports.aspx?WT=1, line 543: TypeError: liveWindow is undefined
+1620169348621	Marionette	INFO	Stopped listening on port 52604
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1620169356393	geckodriver	INFO	Listening on 127.0.0.1:52678
+1620169359495	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Jack\\AppData\\Local\\Temp\\rust_mozprofileGt96y8"
+1620169359747	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620169361227	Marionette	INFO	Listening on port 52686
+1620169361542	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/, line 1: ReferenceError: onkey is not defined
+JavaScript error: https://www.wagerhub888.com/wager/Message.aspx, line 233: TypeError: window.navigate is not a function
+1620169364172	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://www.wagerhub888.com/wager/Welcome.aspx, line 288: TypeError: liveWindow is undefined
+JavaScript error: https://www.wagerhub888.com/wager/CreateSports.aspx?WT=1, line 654: TypeError: liveWindow is undefined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/tinysort/3.2.5/tinysort.min.js, line 1: TypeError: M is undefined
