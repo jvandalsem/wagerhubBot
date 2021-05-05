@@ -9,6 +9,7 @@
     - [ ] Define a `listGames` method to view available games
 - [ ] Implement method to place bet
 - [ ] Implement method to list open bets
+  - [ ] Have to figure out encoding on spread notation
 - [ ] Figure out how `geckodriver` would run non-locally
 
 ## Slack Bot
