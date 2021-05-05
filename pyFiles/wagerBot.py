@@ -7,7 +7,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import os
 import time
-# os.environ['MOZ_HEADLESS'] = '1'
+os.environ['MOZ_HEADLESS'] = '1'
 class formDriver:
     def __init__(self):
         self.driver = webdriver.Firefox(executable_path=r'C:\geckodriver.exe')
@@ -34,6 +34,14 @@ class formDriver:
         self.winnings = self.driver.find_element_by_id("ctl00_WagerContent_AccountFigures1_lblThisWeek").text
         print(('{}'+self.winnings).format('$'))
 
+    def getOpenBets(self):
+        self.login()
+        self.driver.find_element_by_xpath("//img[@src='/backend/img/User-icon.png']").click()
+        self.driver.find_element_by_id("ctl00_AccountFigures1_lnk14").click()
+        for a in self.driver.find_element(By.TAG_NAME,'table').find_elements(By.TAG_NAME,'tr'):
+            for b in a.find_elements(By.TAG_NAME,'td')[:3]:
+                print(b.text)
+
     def selectBetType(self,type='single'):
         self.betType = type
         self.login()
@@ -42,7 +50,6 @@ class formDriver:
         elif type.lower()=='parlay':
             self.driver.find_element_by_id("ctl00_SingleTemplateControl2_lnk3").click()
         return self
-
 
     def getSports(self):
         print('You can bet on the NBA, MLB, NHL, and EPL')
@@ -67,6 +74,8 @@ class formDriver:
 
         except:
             print('Looks like there are no games available for that sport right now')
+        return self
+
     def test1(self):
         element = self.driver.find_element_by_xpath("//div[@class='col-12 text-center']")
         print(element)
