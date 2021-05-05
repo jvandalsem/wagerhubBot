@@ -4,11 +4,11 @@
 - [x] Define a `getSports` method that returns what sports users are able to wager on
 - [x] Find all `id` tags for `sportsList`
 - [x] Implement method that navigates to each sports available games
-- [ ] Implement method that lists available games to bet on for each sport
+- [x] Implement method that `listGames` available games to bet on for each sport
     - [ ] Include team names, ML/Spread/OverUnder odds
-    - [ ] Define a `listGames` method to view available games
+    - [ ] **Need to figure out encoding/decoding issues with spread syntax
 - [ ] Implement method to place bet
-- [ ] Implement method to list open bets
+- [x] Implement method to list open bets
   - [ ] Have to figure out encoding on spread notation
 - [ ] Figure out how `geckodriver` would run non-locally
 

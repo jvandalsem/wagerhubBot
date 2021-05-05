@@ -32,13 +32,14 @@ class formDriver:
     def getWinnings(self):
         self.login()
         self.winnings = self.driver.find_element_by_id("ctl00_WagerContent_AccountFigures1_lblThisWeek").text
-        print(('{}'+self.winnings).format('$'))
+        print('$'+self.winnings)
 
     def getOpenBets(self):
         self.login()
         self.driver.find_element_by_xpath("//img[@src='/backend/img/User-icon.png']").click()
         self.driver.find_element_by_id("ctl00_AccountFigures1_lnk14").click()
         for a in self.driver.find_element(By.TAG_NAME,'table').find_elements(By.TAG_NAME,'tr'):
+            print(a)
             for b in a.find_elements(By.TAG_NAME,'td')[:3]:
                 print(b.text)
 
@@ -56,13 +57,14 @@ class formDriver:
 
     def selectSport(self,sport='nba'):
         try:
-            if sport.lower() == 'nba':
+            sport = sport.lower()
+            if sport == 'nba':
                 id = 'lg_3'
-            elif sport.lower() == 'mlb':
+            elif sport == 'mlb':
                 id = 'lg_5'
-            elif sport.lower() == 'nhl':
+            elif sport == 'nhl':
                 id = 'lg_1166'
-            elif sport.lower() == 'epl':
+            elif sport == 'epl':
                 id = 'lg_1699'
             else:
                 print("I'm sorry, we don't offer the functionality to place wagers on that sport yet")
@@ -76,9 +78,19 @@ class formDriver:
             print('Looks like there are no games available for that sport right now')
         return self
 
+    def getBets(self,sport):
+        self.selectSport(sport)
+        gamesList = list()
+        elements = WebDriverWait(self.driver, 10).until(EC.presence_of_all_elements_located((By.CLASS_NAME, "gamesRow")))
+        for a in elements:
+            self.formatBets(a.text)
+
+    def formatBets(self,element):
+        print(element)
+
     def test1(self):
         element = self.driver.find_element_by_xpath("//div[@class='col-12 text-center']")
-        print(element)
+
 #
 # WebDriverWait(self.driver,10).until(EC.invisibility_of_element_located((By.XPATH,"//div[@class='col-12 text-center']")))
 # el_xp('//*[@id="lg_1166"]').click()
