@@ -5,12 +5,11 @@
 - [x] Find all `id` tags for `sportsList`
 - [x] Implement method that navigates to each sports available games
 - [x] Implement method that `listGames` available games to bet on for each sport
-    - [ ] Include team names, ML/Spread/OverUnder odds
-    - [ ] **Need to figure out encoding/decoding issues with spread syntax
+    - [x] Include team names, ML/Spread/OverUnder odds
+    - [x] **Need to figure out encoding/decoding issues with spread syntax
 - [ ] Implement method to place bet
-- [x] Implement method to list open bets
-  - [ ] Have to figure out encoding on spread notation
 - [ ] Figure out how `geckodriver` would run non-locally
+- [ ] Figure out how to hide credentials
 
 ## Slack Bot
 - [ ] Figure out how the fuck that API works
