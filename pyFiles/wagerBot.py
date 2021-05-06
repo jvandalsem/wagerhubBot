@@ -5,9 +5,8 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-import os
-import time
-os.environ['MOZ_HEADLESS'] = '1'
+import pandas as pd
+
 class formDriver:
     def __init__(self):
         self.driver = webdriver.Firefox(executable_path=r'C:\geckodriver.exe')
@@ -42,6 +41,7 @@ class formDriver:
             print(a)
             for b in a.find_elements(By.TAG_NAME,'td')[:3]:
                 print(b.text)
+
 
     def selectBetType(self,type='single'):
         self.betType = type
@@ -78,21 +78,23 @@ class formDriver:
             print('Looks like there are no games available for that sport right now')
         return self
 
-    def getBets(self,sport):
+    def listGames(self,sport):
         self.selectSport(sport)
         gamesList = list()
         elements = WebDriverWait(self.driver, 10).until(EC.presence_of_all_elements_located((By.CLASS_NAME, "gamesRow")))
         for a in elements:
-            self.formatBets(a.text)
+            self.formatBets(bytes(a.text,'utf-8').decode('unicode_escape'))
 
     def formatBets(self,element):
-        print(element)
-
-    def test1(self):
-        element = self.driver.find_element_by_xpath("//div[@class='col-12 text-center']")
-
-#
-# WebDriverWait(self.driver,10).until(EC.invisibility_of_element_located((By.XPATH,"//div[@class='col-12 text-center']")))
-# el_xp('//*[@id="lg_1166"]').click()
-# element = self.driver.find_element_by_xpath("//div[@class='col-12 text-center']")
-# self.driver.execute_script("arguments[0].style.visibility='hidden'", element)
+        row1 = list()
+        row2 = list()
+        for a in element.split('\n')[:5]:
+            cleaned1 = a.lstrip()
+            row1.append(cleaned1)
+        for b in element.split('\n')[6:-1]:
+            cleaned2 = b.lstrip()
+            row2.append(cleaned2)
+        data = [row1,row2]
+        if data[1]!=[]:
+            df = pd.DataFrame(data,columns=['Date','Team','Spread','Total','ML'])
+            print(df,'\n')
