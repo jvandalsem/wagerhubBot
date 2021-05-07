@@ -6,13 +6,13 @@ from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import pandas as pd
+import markdown_strings
 
 class formDriver:
     def __init__(self):
         self.driver = webdriver.Firefox(executable_path=r'C:\geckodriver.exe')
-
+        self.site = 'https://www.wagerhub888.com/'
     def getSite(self,site):
-        self.site = site
         self.driver.get(self.site)
 
     def setCreds(self,user,password):
@@ -37,10 +37,15 @@ class formDriver:
         self.login()
         self.driver.find_element_by_xpath("//img[@src='/backend/img/User-icon.png']").click()
         self.driver.find_element_by_id("ctl00_AccountFigures1_lnk14").click()
+        betList = list()
         for a in self.driver.find_element(By.TAG_NAME,'table').find_elements(By.TAG_NAME,'tr'):
-            print(a)
-            for b in a.find_elements(By.TAG_NAME,'td')[:3]:
-                print(b.text)
+            for b in a.find_elements(By.TAG_NAME,'td')[4:]:
+                betList.append(bytes(b.text,'utf-8').decode('unicode_escape').replace('\n',' '))
+        discStr = str()
+        for c in range(0,len(betList),2):
+            discStr+='> '+betList[c]+' Wager: '+betList[c+1]+'\n\n'
+        return discStr.replace('Â','')
+
 
 
     def selectBetType(self,type='single'):
@@ -53,7 +58,7 @@ class formDriver:
         return self
 
     def getSports(self):
-        print('You can bet on the NBA, MLB, NHL, and EPL')
+        return 'You can bet on the NBA, MLB, NHL, and EPL'
 
     def selectSport(self,sport='nba'):
         try:
@@ -82,19 +87,15 @@ class formDriver:
         self.selectSport(sport)
         gamesList = list()
         elements = WebDriverWait(self.driver, 10).until(EC.presence_of_all_elements_located((By.CLASS_NAME, "gamesRow")))
+        games = list()
         for a in elements:
-            self.formatBets(bytes(a.text,'utf-8').decode('unicode_escape'))
+            games.append(self.formatBets(bytes(a.text,'utf-8').decode('unicode_escape')))
+        return games[0]
 
     def formatBets(self,element):
-        row1 = list()
-        row2 = list()
-        for a in element.split('\n')[:5]:
-            cleaned1 = a.lstrip()
-            row1.append(cleaned1)
-        for b in element.split('\n')[6:-1]:
-            cleaned2 = b.lstrip()
-            row2.append(cleaned2)
+        row1 = [a.lstrip() for a in element.split('\n')[:5]]
+        row2 = [b.lstrip() for b in element.split('\n')[6:-1]]
         data = [row1,row2]
-        if data[1]!=[]:
-            df = pd.DataFrame(data,columns=['Date','Team','Spread','Total','ML'])
-            print(df,'\n')
+        if (data[1]!=[]):
+            for a,b in zip(data[0],data[1]):
+                return(a,b)
