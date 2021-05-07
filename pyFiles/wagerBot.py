@@ -12,6 +12,7 @@ class formDriver:
     def __init__(self):
         self.driver = webdriver.Firefox(executable_path=r'C:\geckodriver.exe')
         self.site = 'https://www.wagerhub888.com/'
+
     def getSite(self,site):
         self.driver.get(self.site)
 
@@ -31,7 +32,10 @@ class formDriver:
     def getWinnings(self):
         self.login()
         self.winnings = self.driver.find_element_by_id("ctl00_WagerContent_AccountFigures1_lblThisWeek").text
-        print('$'+self.winnings)
+        self.close()
+        if self.winnings[0]=='-':
+            return '-$'+self.winnings[1:]
+        return '$'+self.winnings
 
     def getOpenBets(self):
         self.login()
@@ -41,15 +45,13 @@ class formDriver:
         for a in self.driver.find_element(By.TAG_NAME,'table').find_elements(By.TAG_NAME,'tr'):
             for b in a.find_elements(By.TAG_NAME,'td')[4:]:
                 betList.append(bytes(b.text,'utf-8').decode('unicode_escape').replace('\n',' '))
+        self.close()
         discStr = str()
         for c in range(0,len(betList),2):
             discStr+='> '+betList[c]+' Wager: '+betList[c+1]+'\n\n'
         return discStr.replace('Â','')
 
-
-
     def selectBetType(self,type='single'):
-        self.betType = type
         self.login()
         if type.lower()=='single':
             self.driver.find_element_by_id("ctl00_SingleTemplateControl2_lnk2").click()
@@ -90,12 +92,12 @@ class formDriver:
         games = list()
         for a in elements:
             games.append(self.formatBets(bytes(a.text,'utf-8').decode('unicode_escape')))
-        return games[0]
+        self.close()
+        return games
 
     def formatBets(self,element):
         row1 = [a.lstrip() for a in element.split('\n')[:5]]
         row2 = [b.lstrip() for b in element.split('\n')[6:-1]]
         data = [row1,row2]
         if (data[1]!=[]):
-            for a,b in zip(data[0],data[1]):
-                return(a,b)
+            return data
