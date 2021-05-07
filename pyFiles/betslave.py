@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 from discord.ext import commands
 from wagerBot import formDriver
 from helpers import formatMD_GS
-# os.environ['MOZ_HEADLESS'] = '1'
+os.environ['MOZ_HEADLESS'] = '1'
 
 wager = formDriver()
 wager.setCreds('jvandal', 'booshy')
@@ -30,7 +30,9 @@ async def bot_getSports(ctx):
 
 @bot.command(name='Which',brief='-> Which <sport> games you can bet on')
 async def bot_getSports(ctx,*args):
-    response = formatMD_GS(wager.selectBetType('single').listGames(arg[0]))
-    await ctx.send(response)
+    response = formatMD_GS(wager.selectBetType('single').listGames(args[0]))
+    for a in range(len(response)):
+        await ctx.send(response[a])
+        print(a)
 
 bot.run(TOKEN)
