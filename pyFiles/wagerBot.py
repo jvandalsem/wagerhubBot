@@ -32,7 +32,7 @@ class formDriver:
     def getWinnings(self):
         self.login()
         self.winnings = self.driver.find_element_by_id("ctl00_WagerContent_AccountFigures1_lblThisWeek").text
-        self.close()
+        # self.close()
         if self.winnings[0]=='-':
             return '-$'+self.winnings[1:]
         return '$'+self.winnings
@@ -45,8 +45,10 @@ class formDriver:
         for a in self.driver.find_element(By.TAG_NAME,'table').find_elements(By.TAG_NAME,'tr'):
             for b in a.find_elements(By.TAG_NAME,'td')[4:]:
                 betList.append(bytes(b.text,'utf-8').decode('unicode_escape').replace('\n',' '))
-        self.close()
+        # self.close()
         discStr = str()
+        if len(betList) == 0:
+            return 'No open bets'
         for c in range(0,len(betList),2):
             discStr+='> '+betList[c]+' Wager: '+betList[c+1]+'\n\n'
         return discStr.replace('Â','')
@@ -92,7 +94,7 @@ class formDriver:
         games = list()
         for a in elements:
             games.append(self.formatBets(bytes(a.text,'utf-8').decode('unicode_escape')))
-        self.close()
+        # self.close()
         return games
 
     def formatBets(self,element):
