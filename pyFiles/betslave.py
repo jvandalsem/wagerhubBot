@@ -49,17 +49,17 @@ def exec(query):
 
 @bot.command(name='login',brief='-> Login to WagerHub account')
 async def bot_login(ctx,*args):
-    if str(ctx.author.id) not in [a[0] for a in exec('SELECT disc_id FROM betUsers')]:
-        if len(args)==0:
+    if str(ctx.author.id) in [a[0] for a in exec('SELECT disc_id FROM betUsers')]:
+        creds = exec("SELECT username, pass FROM betUsers WHERE disc_id = '{}'".format(ctx.author.id))
+        wager.setCreds(creds[0][0],creds[0][1])
+        await ctx.send('Logged in as {}'.format(creds[0][0]))
+    else:
+        if len(args)<2:
             await ctx.send('Please provide WagerHub login credentials')
         else:
             wager.setCreds(args[0],args[1])
             exec("INSERT INTO betUsers (username, pass, disc_id) values ('{}', '{}', '{}')".format(args[0],args[1],ctx.author.id))
             await ctx.send('Successfully logged in to WagerHub account for {}'.format(args[0]))
-    else:
-        creds = exec("SELECT username, pass FROM betUsers WHERE disc_id = '{}'".format(ctx.author.id))
-        wager.setCreds(creds[0][0],creds[0][1])
-        print('Logged in!')
 @bot.command(name='open',brief='-> Your open bets')
 async def bot_openBets(ctx):
     await ctx.send(wager.getOpenBets())
