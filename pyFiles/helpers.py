@@ -1,3 +1,7 @@
+from liveScores import scrapetheScore
+import pandas
+import numpy as np
+import teams
 def formatMD_GS(gList):
     s1 = str()
     s2 = str()
@@ -19,3 +23,23 @@ def formatMD_GS(gList):
             except:
                 pass
     return multiList
+
+def formatLS(df):
+    scores=df.to_numpy().tolist()
+    multiList2 = list()
+    for a in scores:
+        s1='> **{}**: {}\n'.format(a[0],a[1])
+        s2='> **{}**: {}\n'.format(a[2],a[3])
+        s3='> **{}**\n'.format(a[4])
+        multiStr2 = ''.join((s1,s2,s3))
+        multiList2.append(multiStr2)
+    return multiList2
+
+def checkTeams(league):
+    if league.lower() == 'mlb':
+        check1 = teams.mlb
+    elif league.lower() == 'nba':
+        check1 = teams.nba
+    elif league.lower() == 'nhl':
+        check1 = teams.nhl
+    return check1
